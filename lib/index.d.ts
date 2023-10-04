@@ -9,7 +9,7 @@
  * @returns
  */
 export function createSelectedFields(queryInfo: any, options?: {
-    additionalFields?: [string];
+    additionalFields?: string[];
     path?: string;
     returnType?: string;
 }): any;
